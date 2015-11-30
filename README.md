@@ -61,12 +61,6 @@ Finally to install TPOT, run the following command:
 pip install tpot
 ```
 
-Alternatively you can install all dependencies using the `requirements.txt` file.
-
-```Shell
-pip install -r requirements.txt
-```
-
 Please [file a new issue](https://github.com/rhiever/tpot/issues/new) if you run into installation problems.
 
 
@@ -176,9 +170,15 @@ tpot.score(X_train, y_train, X_test, y_test)
 Running this code should discover a pipeline that achieves ~98% testing accuracy.
 
 
-## Tests
+## Development Setup
 
-Run tests via
+Once you've cloned the repo you can install all dependencies using the `requirements.txt` file.
+
+```Shell
+pip install -r requirements.txt
+```
+
+And run tests via
 
 ```Shell
 nosetests -s -v
