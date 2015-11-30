@@ -63,3 +63,7 @@ target/
 # IPython Notebooks
 Testing TPOT usage.ipynb
 .ipynb_checkpoints/*
+
+
+# pyenv stuff
+.python-version
